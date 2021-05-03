@@ -21,7 +21,7 @@ const initialStateWithProducts = (num) => {
     return {
         products: {
             products: mockProducts(num),
-            totalCount: num
+            total: num
         }
     }
 }
